@@ -4,6 +4,7 @@ from PIL import ImageChops
 import time #调用时间模块（考略到网站点击延时）
 
 def click_func(loop_time, sleep_duation):
+    print("LTH")
     n = loop_time
     t = sleep_duation
     for i in range(n): #循环n次
