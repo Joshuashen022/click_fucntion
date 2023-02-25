@@ -2,7 +2,7 @@ from pymouse import PyMouse #调用Pymouse模块
 from PIL import Image
 from PIL import ImageChops
 import time #调用时间模块（考略到网站点击延时）
-
+print("LTH1")
 def click_func(loop_time, sleep_duation):
     print("LTH")
     n = loop_time
