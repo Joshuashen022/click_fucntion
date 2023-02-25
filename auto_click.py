@@ -49,8 +49,8 @@ def compare_images(path_one):
 
 
 if __name__ == '__main__':
-    compare_images(
-        'target.png',
-        'template.jpg',
+    click_func(
+        100, 
+        1
     )
 
